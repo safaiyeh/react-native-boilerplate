@@ -10,7 +10,7 @@ Boilerplate for react-native projects.
 2. Run `react-native run-ios` or `react-native run-android` on the root directory.
 
 ## Changing Project Name
-1. Change names in [app.js](./app.json).
+1. Change names in [app.json](./app.json).
 2. Delete directories [/android](./android) and [/ios](./ios).
 3. Run `react-native eject`.
 4. Run `react-native link`.
