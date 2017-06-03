@@ -14,3 +14,7 @@ Boilerplate for react-native projects.
 2. Delete directories [/android](./android) and [/ios](./ios).
 3. Run `react-native eject`.
 4. Run `react-native link`.
+
+## To Dos
+1. Add native nativation library
+2. Unit Tests
