@@ -15,7 +15,7 @@ Boilerplate for react-native projects.
 3. Install node modules.
 4. Run `react-native eject`.
 5. Run `react-native link`.
-6. Change app name of `registerComponent` in `/src/App,js`
+6. Change app name of `registerComponent` in [/src/App.js](/src/App.js)
 
 ## To Dos
 1. Add native nativation library
