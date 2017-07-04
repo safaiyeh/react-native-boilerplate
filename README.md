@@ -18,5 +18,6 @@ Boilerplate for react-native projects.
 6. Change app name of `registerComponent` in [/src/App.js](/src/App.js)
 
 ## To Dos
-1. Add native nativation library
-2. Unit Tests
+- [x] Add react-navigation library
+- [ ] More screens to demostrate redux and navigation
+- [ ] Unit Tests
