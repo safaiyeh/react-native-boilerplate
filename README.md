@@ -15,7 +15,8 @@ Boilerplate for react-native projects.
 3. Install node modules.
 4. Run `react-native eject`.
 5. Run `react-native link`.
-6. Change app name of `registerComponent` in [/src/App.js](/src/App.js)
+6. Replace `'RNBoilerplate'` with new app name in [App.js](/src/App.js).
+7. Replace name with app name in [package.json](package.json).
 
 ## To Dos
 - [x] Add react-navigation library
