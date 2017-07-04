@@ -1,25 +1,13 @@
 import React from 'react';
+import { AppRegistry } from 'react-native';
 import { Provider } from 'react-redux';
-import { AppRegistry, StyleSheet, View } from 'react-native';
-import Counter from './components/Counter';
+import AppWithNavigationState from './navigators/AppNavigator';
 import store from './store';
 
 const App = () => (
   <Provider store={store}>
-    <View style={styles.container}>
-      <Counter />
-    </View>
+    <AppWithNavigationState />
   </Provider>
 );
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-});
-
 AppRegistry.registerComponent('RNBoilerplate', () => App);
-export default App;

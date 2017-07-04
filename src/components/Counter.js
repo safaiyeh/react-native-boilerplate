@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { StyleSheet, View, Button, Text } from 'react-native';
 import { connect } from 'react-redux';
+import PropTypes from 'prop-types';
 import { increment, decrement } from '../actions';
 
 class Counter extends Component {
@@ -33,6 +34,11 @@ class Counter extends Component {
     );
   }
 }
+Counter.propTypes = {
+  increment: PropTypes.func.isRequired,
+  decrement: PropTypes.func.isRequired,
+  value: PropTypes.number.isRequired,
+};
 
 const styles = StyleSheet.create({
   container: {
