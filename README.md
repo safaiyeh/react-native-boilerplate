@@ -22,3 +22,7 @@ Boilerplate for react-native projects.
 - [x] Add react-navigation library
 - [ ] More screens to demostrate redux and navigation
 - [ ] Unit Tests
+
+<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/WNaTz7WhPNKE4eJ4JLvYDVdM/JSafaiyeh/react-native-boilerplate'>
+  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/WNaTz7WhPNKE4eJ4JLvYDVdM/JSafaiyeh/react-native-boilerplate.svg' />
+</a>
