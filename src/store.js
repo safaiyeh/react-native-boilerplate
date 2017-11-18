@@ -5,10 +5,6 @@ import reducers from './reducers';
 const INITIAL_STATE = {};
 const reduxLogger = createLogger({ predicate: () => __DEV__ });
 
-const enhancer = compose(
-  applyMiddleware(
-    reduxLogger,
-  ),
-);
+const enhancer = compose(applyMiddleware(reduxLogger));
 
 export default createStore(reducers, INITIAL_STATE, enhancer);

@@ -2,7 +2,7 @@ import { NavigationActions } from 'react-navigation';
 import { AppNavigator } from '../navigators/AppNavigator';
 
 const INITIAL_STATE = AppNavigator.router
-                        .getStateForAction(AppNavigator.router.getActionForPathAndParams('Home'));
+  .getStateForAction(AppNavigator.router.getActionForPathAndParams('Home'));
 
 
 const navReducer = (state = INITIAL_STATE, action) => {

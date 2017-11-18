@@ -5,7 +5,6 @@ import PropTypes from 'prop-types';
 import { increment, decrement } from '../actions';
 
 class Counter extends Component {
-
   onIncrement = () => {
     this.props.increment(this.props.value);
   }
